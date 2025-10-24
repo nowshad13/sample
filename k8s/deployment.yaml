@@ -5,7 +5,7 @@ metadata:
   namespace: sampleapp
 spec:
   minReadySeconds: 40
-  replicas: 2
+  replicas: 1
   strategy:
     rollingUpdate:
       maxSurge: 25%
