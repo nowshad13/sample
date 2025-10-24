@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: weapp-dep
+  namespace: sampleapp
 spec:
   minReadySeconds: 40
   replicas: 2
